@@ -16,13 +16,13 @@ struct CustomTextField: View {
         if isSecure {
             SecureField(placeholder, text: $text)
                 .padding()
-                .background(Color(.systemGray3))
+                .background(Color(.white))
                 .clipShape(RoundedRectangle(cornerRadius: 20))
                 .frame(minWidth: 0, maxWidth: .infinity)
         } else {
             TextField(placeholder, text: $text)
                 .padding()
-                .background(Color(.systemGray3))
+                .background(Color(.white))
                 .clipShape(RoundedRectangle(cornerRadius: 20))
                 .frame(minWidth: 0, maxWidth: .infinity)
         }

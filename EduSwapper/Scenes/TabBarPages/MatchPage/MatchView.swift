@@ -26,6 +26,7 @@ struct MatchView: View {
                 endPoint: .bottom
             )
             .edgesIgnoringSafeArea(.all)
+            
             ZStack {
                 ForEach(persons.indices.reversed(), id: \.self) { index in
                     UserCardView(person: persons[index])
@@ -57,7 +58,7 @@ struct MatchView: View {
                                 }
                         )
                         .animation(.spring(), value: offset)
-                        .zIndex(index == topCardIndex ? 1 : 0) // Ensure the top card is always on top
+                        .zIndex(index == topCardIndex ? 1 : 0)
                 }
             }
         }

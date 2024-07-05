@@ -28,6 +28,7 @@
 		0873DD532C383AD200A4AAD9 /* ProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873DD522C383AD200A4AAD9 /* ProfileSettingsView.swift */; };
 		0873DD552C385D3B00A4AAD9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873DD542C385D3B00A4AAD9 /* UserModel.swift */; };
 		0873DD572C385DAC00A4AAD9 /* UserCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873DD562C385DAC00A4AAD9 /* UserCardView.swift */; };
+		0873DD592C38A4A500A4AAD9 /* MatchedPersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873DD582C38A4A500A4AAD9 /* MatchedPersonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		0873DD522C383AD200A4AAD9 /* ProfileSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsView.swift; sourceTree = "<group>"; };
 		0873DD542C385D3B00A4AAD9 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		0873DD562C385DAC00A4AAD9 /* UserCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardView.swift; sourceTree = "<group>"; };
+		0873DD582C38A4A500A4AAD9 /* MatchedPersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedPersonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			children = (
 				0873DD3D2C381B6400A4AAD9 /* SkillsModel.swift */,
 				0873DD542C385D3B00A4AAD9 /* UserModel.swift */,
+				0873DD582C38A4A500A4AAD9 /* MatchedPersonModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				0873DD532C383AD200A4AAD9 /* ProfileSettingsView.swift in Sources */,
 				08300D962C371F0100353369 /* OnBoardingPage.swift in Sources */,
 				0873DD352C37F6B200A4AAD9 /* SignUpView.swift in Sources */,
+				0873DD592C38A4A500A4AAD9 /* MatchedPersonModel.swift in Sources */,
 				08300D812C36EF8900353369 /* LoginView.swift in Sources */,
 				0873DD4F2C383A2800A4AAD9 /* ListOfInterestedView.swift in Sources */,
 				0873DD512C383A8B00A4AAD9 /* ChatView.swift in Sources */,

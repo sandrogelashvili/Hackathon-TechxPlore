@@ -15,38 +15,59 @@ struct UserCardView: View {
             Image(person.imageName)
                 .resizable()
                 .scaledToFill()
-                .frame(width: 300, height: 500)
+                .frame(width: 350, height: 550)
                 .clipped()
                 .overlay {
                     LinearGradient(
-                                    gradient: Gradient(colors: [Color.clear, Color.black.opacity(0.6)]),
+                                    gradient: Gradient(colors: [Color.clear, Color.black.opacity(0.9)]),
                                     startPoint: .center,
                                     endPoint: .bottom
                                 )
-                                .frame(width: 300, height: 500)
+                                .frame(width: 350, height: 550)
                 }
+            HStack {
+                VStack(alignment: .leading) {
+                    HStack (alignment: .center){
+                        Text("\(person.name),")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
                         
-            VStack(alignment: .leading) {
-                Spacer()
-                Text(person.name)
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
-                
-                HStack(spacing: 100) {
-                    Text("Age: \(person.age)")
-                        .font(.system(size: 20, weight: .medium))
-                        .foregroundColor(.white)
+                        Text("\(person.age)")
+                            .font(.system(size: 24, weight: .light))
+                            .foregroundColor(.white)
+                    }
+                    .padding(.bottom)
                     
                     Text(person.skill)
                         .font(.system(size: 20, weight: .medium))
                         .foregroundColor(.white)
+                    HStack {
+                        Spacer()
+                        
+                        Image(systemName: "x.circle.fill")
+                            .foregroundColor(.blue)
+                            .font(.system(size: 45))
+                            .background(.white)
+                            .clipShape(Circle())
+                            .padding(.trailing)
+                        
+                        Image(systemName: "book.circle.fill")
+                            .foregroundColor(.blue)
+                            .font(.system(size: 45))
+                            .background(.white)
+                            .clipShape(Circle())
+        
+                        Spacer()
+                    }
+                    .padding(5)
                 }
-                .padding(.vertical, 10)
+                .padding()
+                
+                Spacer()
             }
-            .padding()
         }
-        .frame(width: 300, height: 500)
+        .frame(width: 350, height: 550)
         .background(Color.white)
         .cornerRadius(10)
         .shadow(radius: 5)
