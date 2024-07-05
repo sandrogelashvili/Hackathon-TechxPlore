@@ -25,7 +25,7 @@ struct OnBoardingPage: View {
                 
                 if currentPage == 1 {
                     OnBoardingReusablePage(
-                        titleForOBPage: "Welcome to SkillSwap",
+                        titleForOBPage: "Welcome to UpSwap",
                         imageForOBPage: "StartingImage",
                         descriptionForOBPage: "Unlock a world of knowledge exchange. Swap your skills, learn from others, and grow together!",
                         totalPages: totalPages,

@@ -19,6 +19,7 @@ struct LoginView: View {
                 
                 VStack {
                     appName
+                    
                     slogan
                 }
                 
@@ -91,7 +92,7 @@ struct LoginView: View {
     }
     
     private var appName: some View {
-        Text("SkillSwap")
+        Text("UpSwap")
             .font(.title)
             .fontWeight(.medium)
     }

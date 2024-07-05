@@ -12,7 +12,7 @@ struct ChooseSkillsView: View {
     @State private var showAlert = false
     
     let skills = [
-        Skill(name: "Software Engenier"),
+        Skill(name: "iOS Developement"),
         Skill(name: "Data Science"),
         Skill(name: "Cybersecurity"),
         Skill(name: "Cloud Computing"),

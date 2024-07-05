@@ -14,7 +14,7 @@ struct UserInfoCardView: View {
     @State private var selectedSkill: String = ""
     @State private var description: String = ""
     
-    let skills = ["Software Engineering",
+    let skills = ["iOS Developement",
                   "Data Science",
                   "Cybersecurity",
                   "Cloud Computing",

@@ -88,7 +88,7 @@ struct SignUpView: View {
     
     private var textForTitle: some View {
         VStack {
-            Text("SkillSwap")
+            Text("UpSwap")
                 .font(.title)
                 .fontWeight(.medium)
             
