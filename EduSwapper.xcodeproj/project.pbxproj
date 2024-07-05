@@ -26,6 +26,8 @@
 		0873DD4F2C383A2800A4AAD9 /* ListOfInterestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873DD4E2C383A2800A4AAD9 /* ListOfInterestedView.swift */; };
 		0873DD512C383A8B00A4AAD9 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873DD502C383A8B00A4AAD9 /* ChatView.swift */; };
 		0873DD532C383AD200A4AAD9 /* ProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873DD522C383AD200A4AAD9 /* ProfileSettingsView.swift */; };
+		0873DD552C385D3B00A4AAD9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873DD542C385D3B00A4AAD9 /* UserModel.swift */; };
+		0873DD572C385DAC00A4AAD9 /* UserCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0873DD562C385DAC00A4AAD9 /* UserCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		0873DD4E2C383A2800A4AAD9 /* ListOfInterestedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfInterestedView.swift; sourceTree = "<group>"; };
 		0873DD502C383A8B00A4AAD9 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		0873DD522C383AD200A4AAD9 /* ProfileSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsView.swift; sourceTree = "<group>"; };
+		0873DD542C385D3B00A4AAD9 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		0873DD562C385DAC00A4AAD9 /* UserCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				0873DD3D2C381B6400A4AAD9 /* SkillsModel.swift */,
+				0873DD542C385D3B00A4AAD9 /* UserModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				0873DD462C38370C00A4AAD9 /* MatchView.swift */,
+				0873DD562C385DAC00A4AAD9 /* UserCardView.swift */,
 			);
 			path = MatchPage;
 			sourceTree = "<group>";
@@ -293,7 +299,9 @@
 				0873DD3B2C3814E600A4AAD9 /* ChooseSkillsView.swift in Sources */,
 				0873DD4A2C38396100A4AAD9 /* TabBarContentView.swift in Sources */,
 				0873DD442C382DC900A4AAD9 /* UserInfoCardView.swift in Sources */,
+				0873DD572C385DAC00A4AAD9 /* UserCardView.swift in Sources */,
 				08300D7F2C36EF8900353369 /* EduSwapperApp.swift in Sources */,
+				0873DD552C385D3B00A4AAD9 /* UserModel.swift in Sources */,
 				0873DD412C38279300A4AAD9 /* CustomeButton.swift in Sources */,
 				0873DD382C38071000A4AAD9 /* CustomTextField.swift in Sources */,
 				0873DD472C38370C00A4AAD9 /* MatchView.swift in Sources */,
